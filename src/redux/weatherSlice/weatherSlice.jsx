@@ -8,7 +8,7 @@ const weatherSlice = createSlice({
         data:null,
         headers:{}
     },
-    redusers:{
+    reducers:{
             SET_WEATHER(state,action){
                 state.data = action.payload.data;
                 state.headers = action.payload.headers;
